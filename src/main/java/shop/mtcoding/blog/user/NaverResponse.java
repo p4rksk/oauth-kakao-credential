@@ -5,11 +5,11 @@ import lombok.Data;
 
 import java.sql.Timestamp;
 
-public class KakaoResponse {
+public class NaverResponse {
 
     @Data
-    public static class KakaoUserDTO {
-        private Long id;
+    public static class NaverUserDTO {
+        private String id;
         @JsonProperty("connected_at")
         private Timestamp connectedAt;
         private Properties properties;
